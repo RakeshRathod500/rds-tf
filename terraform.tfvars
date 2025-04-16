@@ -1,0 +1,9 @@
+aws_region            = "us-east-1"            # <<< YOUR AWS REGION
+vpc_id                = "vpc-02c0e8e287d9df5fd"         # <<< YOUR EXISTING VPC ID
+db_identifier         = "dev-postgres-db"
+db_name               = "mydb"
+db_username           = "postgres"
+db_password           = "admin123"  # <<< USE A STRONG PASSWORD
+db_instance_class     = "db.t3.micro"
+allocated_storage     = 20
+engine_version        = "17.2"

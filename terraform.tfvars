@@ -1,5 +1,5 @@
 aws_region            = "us-east-1"            # <<< YOUR AWS REGION
-vpc_id                = "vpc-03bd3715b93b4bb68"         # <<< YOUR EXISTING VPC ID
+vpc_id                = "vpc-099ac5efab1a9584f"         # <<< YOUR EXISTING VPC ID
 db_identifier         = "dev-postgres-db"
 db_name               = "mydb"
 db_username           = "postgres"
